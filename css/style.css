@@ -19737,5 +19737,65 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 }
 
 
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* About Section */
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+#projects img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Hover effect for project images */
+#projects img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
 
 
